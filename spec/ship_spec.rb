@@ -1,7 +1,5 @@
 require 'ship'
 
-# ship has to have a size
-# ship has to have coordinates
 describe Ship do
 
   let(:ship) { Ship.new(5, ['a1', 'a2', 'a3', 'a4', 'a5']) }
